@@ -1,0 +1,45 @@
+.project-title {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .project-title {
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+}
+.project-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .project-heading-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.calender-icon-container {
+  display: flex;
+  align-items: center;
+}
+.project-duration {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 6px;
+}
+.project-description {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.visit-link {
+  text-decoration: none;
+  color: #0967d2;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
